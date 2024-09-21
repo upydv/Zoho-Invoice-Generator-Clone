@@ -2,8 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Footer() {
-  const scrollToTop = (e) => {
-    e.preventDefault();
+  const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -13,16 +12,16 @@ export default function Footer() {
         <Row className="justify-content-center">
           <Col md={10} className="text-center">
             <p className="mb-3">
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Zoho Home</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Contact</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Security</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">IPR Complaints</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Anti-spam Policy</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Terms of Service</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Privacy Policy</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">Cookie Policy</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted me-3">GDPR Compliance</a>
-              <a href="javascript:void(0)" onClick={scrollToTop} className="text-muted">Abuse Policy</a>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Zoho Home</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Contact</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Security</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">IPR Complaints</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Anti-spam Policy</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Terms of Service</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Privacy Policy</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">Cookie Policy</button>
+              <button onClick={scrollToTop} className="text-muted me-1 btn btn-link">GDPR Compliance</button>
+              <button onClick={scrollToTop} className="text-muted btn btn-link">Abuse Policy</button>
             </p>
             <p className="text-muted mb-0">© 2024, Zoho Corporation Pvt. Ltd. All Rights Reserved.</p>
           </Col>
