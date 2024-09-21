@@ -13,22 +13,25 @@
 .navbar-divider {
   height: 40px; /* Match the height of the logo or button */
   width: 1px;
-  background-color: #000; /* Light gray color for the divider */
+  background-color: #ccc; /* Light gray color for the divider */
   margin: 0 15px;
 }
 
 /* Navbar title styling */
 .navbar-title {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.25rem; /* Main title size */
 }
 
+/* Subtitle styling */
 .navbar-subtitle {
-  font-size: 0.875rem;
+  font-size: 0.85rem; /* Smaller size for the subtitle */
   color: #6c757d; /* Bootstrap text-muted color */
 }
 
-/* Styling for right-aligned button */
-.navbar-right {
-  margin-left: auto;
+/* "Check out Zoho Invoice" styling */
+.navbar-zoho {
+  font-size: 0.85rem; /* Same size as subtitle */
+  color: #007bff; /* Bootstrap primary color for links */
+  cursor: pointer; /* Change cursor to pointer */
 }

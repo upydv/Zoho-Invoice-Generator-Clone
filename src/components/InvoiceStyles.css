@@ -1,0 +1,190 @@
+.compact-table td, .compact-table th {
+    padding: 4px;   /* Reduce padding for compact look */
+    border: none;   /* Remove vertical borders */
+  }
+  
+  .compact-table tr {
+    border-bottom: 1px solid black;  /* Add horizontal lines between rows */
+  }
+  
+  .compact-table input {
+    border: none;    /* Remove input borders */
+    background-color: transparent;   /* Transparent input background */
+  }
+  
+  .compact-table input:focus {
+    outline: none;   /* Remove input outline */
+  }
+  
+  .compact-table th {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .compact-table thead th {
+    border-bottom: 2px solid black;  /* Keep bottom border under header row */
+  }
+  
+  
+
+  .invoice-row {
+    position: relative;
+  }
+  
+  .invoice-row:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .delete-btn-cell {
+    width: 30px;
+    text-align: center;
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: all 0.3s ease;
+  }
+  
+  .invoice-row:hover .delete-btn {
+    display: inline-flex;
+  }
+  
+  .compact-table td, 
+  .compact-table th {
+    border: none; /* Remove vertical lines */
+  }
+  
+  .compact-table tbody tr {
+    border-bottom: 1px solid #ccc; /* Horizontal lines between rows */
+  }
+  .logo-upload-container {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .logo-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #888;
+  }
+  
+  .logo-upload-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .editable-title {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+  }
+  
+  .editable-title:focus {
+    outline: none;
+    background: rgba(0,0,0,0.05);
+  }  
+  
+.logo-upload-container {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .logo-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #888;
+  }
+  
+  .logo-upload-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .editable-title {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+  }
+  
+  .editable-title:focus {
+    outline: none;
+    background: rgba(0,0,0,0.05);
+  }
+  
+  .compact-table input {
+    border: none;
+    background: transparent;
+    width: 100%;
+  }
+  
+  .compact-table input:focus {
+    outline: none;
+    background: rgba(0,0,0,0.05);
+  }
+  
+  .delete-btn-cell {
+    width: 30px;
+    text-align: center;
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .delete-btn:hover {
+    color: #bd2130;
+  }
+  .powered-by-footer {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #777;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .invoice-icon {
+    margin: 0 5px;
+  }
+  .powered-by-logo {
+    width: 150px;
+   
+  }
